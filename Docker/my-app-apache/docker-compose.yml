@@ -1,0 +1,11 @@
+version: '3'
+services:
+  web:
+    build: .
+    ports:
+      - "8080:80"  # Expose port 80
+    volumes:
+      - ./html:/var/www/html  # Maps the local 'html' directory to the container
+
+
+
