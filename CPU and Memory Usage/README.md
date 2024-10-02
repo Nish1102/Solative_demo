@@ -56,5 +56,3 @@ This repository contains two useful Bash scripts:
 
 - **mysql_backup.sh**:
   - Automates MySQL database backups with a timestamped filename.
-
-```
